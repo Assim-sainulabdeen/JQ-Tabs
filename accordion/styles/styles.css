@@ -1,32 +1,32 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-.container{
+.container {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
 
-.accordion-container{
+.accordion-container {
   width: 70%;
-  border: 3px solid  #5393dc;
+  border: 3px solid #5393dc;
   margin: 20px auto;
 }
 
-h1{
+h1 {
   margin: 20px 10px;
   text-align: center;
-  background-color:  #5393dc;
+  background-color: #5393dc;
   color: white;
 }
 
-.set{
+.set {
   margin: 0 auto;
   width: 50%;
   margin-bottom: 20px;
 }
-.set a{
+.set a {
   display: block;
   padding: 20px;
   text-align: left;
@@ -35,8 +35,9 @@ h1{
   font-weight: 600;
   font-size: 18px;
   border: 1px solid #f2f2f2;
+  border-radius: 5px;
 }
-.set p{
+.set p {
   text-align: left;
   padding: 20px;
   border: 1px solid #f2f2f2;
@@ -44,14 +45,17 @@ h1{
   border-radius: 0 0 10px 10px;
 }
 
-span{
+.content {
+  display: none;
+}
+span {
   float: right;
   color: #5393dc;
 }
- .active{
-  background-color:#5393dc;
+.active {
+  background-color: #5393dc;
   color: #fff;
 }
-.display{
+.display {
   display: block;
 }
