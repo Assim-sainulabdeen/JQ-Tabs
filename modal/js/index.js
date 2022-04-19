@@ -4,7 +4,7 @@ $("#mybutton").click(function(){
     modal.addClass("display");
 })
 
-$(".modal-btn").click(function(){
+$(".close").click(function(){
     modal.removeClass("display");
 })
 $(".modal").click (function() {
