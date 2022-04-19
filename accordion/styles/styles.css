@@ -50,12 +50,28 @@ h1 {
 }
 span {
   float: right;
+}
+
+span i{
+  position: absolute;
+}
+
+.up{
+  display: none;
+}
+.fa-caret-down{
   color: #5393dc;
 }
+
 .active {
   background-color: #5393dc;
   color: #fff;
 }
-.display {
-  display: block;
+
+.sp{
+  display: inline;
+}
+
+.col{
+  color: white;
 }
