@@ -27,6 +27,7 @@ h2 {
   font-weight: 900;
   border: none;
   outline: none;
+  cursor: pointer;
 }
 
 .modal {
